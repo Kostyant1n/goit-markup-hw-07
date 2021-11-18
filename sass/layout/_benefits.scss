@@ -1,9 +1,7 @@
 /* Benefits Features */
 
-.benefits {
-  .title {
-    text-transform: uppercase;
-  }
+.features__title {
+  text-transform: uppercase;
 }
 
 .benefits {
@@ -13,10 +11,8 @@
   margin-top: 0px;
 }
 
-.features {
-  .title {
-    color: var(--title-text-color);
-  }
+.features__title {
+  color: var(--title-text-color);
 }
 
 .features {
@@ -24,72 +20,58 @@
   flex-wrap: wrap;
 }
 
-.features {
-  .item {
-    &::before {
-      display: block;
-      content: '';
-      height: 120px;
-      background-size: contain;
-      background: var(--bg-cl-icon);
-      background-repeat: no-repeat;
-      background-position: center;
-      border-radius: 4px;
-      margin-bottom: 30px;
-    }
+.features__item {
+  &::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-size: contain;
+    background: var(--bg-cl-icon);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
   }
 }
 
-.features {
-  .item {
-    width: calc((100% - 30px * 3) / 4);
-    margin-right: 30px;
-    &:nth-child(4n) {
-      margin-right: 0;
-    }
+.features__item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+  &:nth-child(4n) {
+    margin-right: 0;
   }
 }
 
-.features {
-  .icon-antenna {
-    &::before {
-      background-image: url(../images/advantages/antenna.svg);
-    }
+.features__icon-antenna {
+  &::before {
+    background-image: url(../images/advantages/antenna.svg);
   }
 }
 
-.features {
-  .icon-clock {
-    &::before {
-      background-image: url(../images/advantages/clock.svg);
-    }
+.features__icon-clock {
+  &::before {
+    background-image: url(../images/advantages/clock.svg);
   }
 }
 
-.features {
-  .icon-diagram {
-    &::before {
-      background-image: url(../images/advantages/diagram.svg);
-    }
+.features__icon-diagram {
+  &::before {
+    background-image: url(../images/advantages/diagram.svg);
   }
 }
 
-.features {
-  .icon-astronaut {
-    &::before {
-      background-image: url(../images/advantages/astronaut.svg);
-    }
+.features__icon-astronaut {
+  &::before {
+    background-image: url(../images/advantages/astronaut.svg);
   }
 }
 
-.features {
-  p {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--primary-text-color);
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-  }
+.features__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 }

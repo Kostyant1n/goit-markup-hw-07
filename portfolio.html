@@ -28,32 +28,38 @@
     <header class="page-header border">
       <div class="container">
         <nav class="navigation">
-          <a href="./index.html" class="header-logo" lang="en">
-            <span class="logo-color">Web</span>Studio</a
+          <a href="./index.html" class="logo" lang="en"
+            >Web<span class="logo--black">Studio</span></a
           >
           <ul class="list site-nav">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item">
-              <a href="" class="link current">Портфолио</a>
+            <li class="item site-nav__item">
+              <a href="./index.html" class="link site-nav__link">Студия</a>
             </li>
-            <li class="item">
-              <a href="" class="link">Контакты</a>
+            <li class="item site-nav__item">
+              <a href="" class="link current site-nav__link">Портфолио</a>
+            </li>
+            <li class="item site-nav__item">
+              <a href="" class="link site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="list contacts-header">
-          <li class="item envelope">
-            <a href="mailto:info@devstudio.com" class="link contact" lang="en">
-              <svg class="svg-envelope">
+          <li class="item contacts-header__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="link contacts-header__contact"
+              lang="en"
+            >
+              <svg class="contacts-header__svg-envelope">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item smartphone">
-            <a href="tel:+380961111111" class="link contact">
-              <svg class="svg-smartphone">
+          <li class="item contacts-header__item">
+            <a href="tel:+380961111111" class="link contacts-header__contact">
+              <svg class="contacts-header__svg-smartphone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -260,59 +266,62 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
-        <div class="ft-logo-contacts">
-          <a href="./index.html" class="link footer-logo" lang="en">
-            <span class="logo-color">Web</span>Studio</a
+        <div class="ftlogo-contacts">
+          <a href="./index.html" class="link logo" lang="en"
+            >Web<span class="logo--white">Studio</span></a
           >
           <address>
-            <ul class="list contacts-footer">
-              <li class="item">
+            <ul class="list ftr-contacts">
+              <li class="ftr-contacts__item">
                 <a
-                  class="link adress-footer"
+                  class="link ftr-contacts__link-adress"
                   href="https://goo.gl/maps/JjDCedRFyoNdZQir6"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="item">
-                <a href="mailto:info@example.com" class="link contact" lang="en"
+              <li class="ftr-contacts__item">
+                <a
+                  href="mailto:info@example.com"
+                  class="link ftr-contacts__link"
+                  lang="en"
                   >info@example.com</a
                 >
               </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="link contact"
+              <li class="ftr-contacts__item">
+                <a href="tel:+380961111111" class="link ftr-contacts__link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="ftsocial-link">
-          <h2 class="social-title">присоединяйтесь</h2>
-          <ul class="list socials">
-            <li class="item-social">
-              <a class="link link-social" href="">
-                <svg class="svg-icon">
+        <div class="ftsocial">
+          <h2 class="ftsocial__title">присоединяйтесь</h2>
+          <ul class="list socials-bg-grey">
+            <li class="social__item">
+              <a class="link social__link" href="">
+                <svg class="social__svg-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="item-social">
-              <a class="link link-social" href="">
-                <svg class="svg-icon">
+            <li class="social__item">
+              <a class="link social__link" href="">
+                <svg class="social__svg-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="item-social">
-              <a class="link link-social" href="">
-                <svg class="svg-icon">
+            <li class="social__item">
+              <a class="link social__link" href="">
+                <svg class="social__svg-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="item-social">
-              <a class="link link-social" href="">
-                <svg class="svg-icon">
+            <li class="social__item">
+              <a class="link social__link" href="">
+                <svg class="social__svg-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -320,9 +329,9 @@
           </ul>
         </div>
         <div class="ft-email">
-          <h2 class="email-title">Подпишитесь на рассылку</h2>
+          <h2 class="ft-email__title">Подпишитесь на рассылку</h2>
           <input
-            class="ft-input"
+            class="ft-email__input"
             type="text"
             name="mail"
             placeholder="E-mail"

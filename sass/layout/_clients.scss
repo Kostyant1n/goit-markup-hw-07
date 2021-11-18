@@ -7,7 +7,7 @@
   margin-bottom: 0px;
 }
 
-.item-client {
+.regular-clients__item {
   width: calc((100% - 30px * 5) / 6);
   margin-top: 0px;
   margin-bottom: 30px;
@@ -18,7 +18,7 @@
   }
 }
 
-.link-client {
+.regular-clients__link {
   display: block;
   align-items: center;
   width: 170px;
@@ -35,10 +35,8 @@
   }
 }
 
-.link-client {
-  .svg-icon {
-    width: 106px;
-    height: 60px;
-    fill: currentColor;
-  }
+.regular-clients__svg-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
 }

@@ -7,49 +7,31 @@
   padding-bottom: 60px;
 }
 
-.footer-logo {
-  color: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.footer-logo {
-  .logo-color {
-    color: #2196f3;
-  }
-}
-
 address {
   font-style: normal;
   margin-top: 20px;
 }
 
-.adress-footer {
+.ftr-contacts__link-adress {
   color: var(--hdprimary-wight-color);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.contacts-footer {
-  .contact {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
-    &:hover,
-    &:focus {
-      color: var(--hdaccent-pick-color);
-    }
+.ftr-contacts__link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    color: var(--hdaccent-pick-color);
   }
 }
 
-.contacts-footer {
-  .item {
-    margin-top: 9px;
-  }
+.ftr-contacts__item {
+  margin-top: 9px;
 }
 
 .footer {
@@ -59,66 +41,20 @@ address {
   }
 }
 
-.footer {
-  .social-title {
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-top: 0px;
-    color: var(--ftprimary-wight-color);
-  }
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.link-social {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  color: var(--icon-cl);
-  border-radius: 50%;
-  background-color: var(--bgicon-cl);
-  padding: 12px;
-}
-
-.link-social {
-  .svg-icon {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-  }
-}
-
-.ftsocial-link {
+.ftsocial {
   align-self: center;
   margin-left: 70px;
 }
 
-.ftsocial-link {
-  .link-social {
-    color: var(--bgicon-cl);
-    background-color: var(--bg-icon-cl);
-    &:hover,
-    &:focus {
-      color: var(--icon-pick-cl);
-      background-color: var(--bgicon-pick-cl);
-    }
-  }
-}
-
-.item-social {
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+.ftsocial__title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: var(--ftprimary-wight-color);
 }
 
 .ft-email {
@@ -126,7 +62,7 @@ address {
   margin-left: 93px;
 }
 
-.email-title {
+.ft-email__title {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 14px;
@@ -136,7 +72,7 @@ address {
   color: #ffffff;
 }
 
-.ft-input {
+.ft-email__input {
   width: 358px;
   height: 50px;
   padding-top: 15px;
@@ -191,20 +127,4 @@ address {
   top: 13px;
   left: 148px;
   fill: var(--btn-wight-color);
-}
-
-.link-social {
-  .svg-icon {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-  }
-}
-
-.link-social {
-  &:hover,
-  &:focus {
-    color: var(--icon-pick-cl);
-    background-color: var(--bgicon-pick-cl);
-  }
 }
